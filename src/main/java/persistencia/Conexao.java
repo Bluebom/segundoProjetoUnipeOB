@@ -20,7 +20,7 @@ public class Conexao {
     public Connection abrirConexao() throws ClassNotFoundException{
             String url = "jdbc:mysql://localhost:3306/Unipe?useTimezone=true&serverTimezone=UTC";
             String user = "frank";
-            String password = "8aca7EAE!!";
+            String password = "";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); /* Aqui registra */
             this.conexao = DriverManager.getConnection(url,user,password);
